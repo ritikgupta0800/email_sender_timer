@@ -11,7 +11,7 @@ String PATH_NAME   = "/trigger/email_sender_timer/json/with/key/e1uY0KHocCfIjhso
 String queryString = "?value1=57&value2=25";
 
 unsigned long startTime;
-unsigned long timerDuration = 7200000;  // 10,000 milliseconds (10 seconds)
+unsigned long timerDuration = 7200000;  // 2 hours in milliseconds
 bool timerStarted = false;
 
 void setup() {
